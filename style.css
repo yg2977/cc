@@ -1,7 +1,4 @@
-@import url("https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css");
-@import url(" https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelementplayer.min.css");
-
-*:focus {
+*:focus{
   outline: none;
 }
 html {
@@ -9,19 +6,19 @@ html {
 }
 body {
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: "Raleway",sans-serif;
 }
 h1 {
   margin: 0;
   font-size: 33px;
-  color: #006633;
+  color: #fff;
   padding: 0 10%;
 }
 h3 {
   margin: 0;
   font-size: 17px;
   font-weight: 500;
-  color: #006633;
+  color: #ccc;
   padding: 0 10%;
 }
 .container {
@@ -30,7 +27,7 @@ h3 {
   height: 750px;
   margin: auto;
   overflow: hidden;
-  background-image: url("https://im.wampi.ru/2022/10/13/FON-ZARKI-2.jpg");
+  background-image: url("https://i.pinimg.com/originals/cb/75/56/cb7556f65e72fe9dc2f54ab5a267ea82.jpg");
   background-repeat: repeat;
   background-size: cover;
 }
@@ -42,8 +39,8 @@ h3 {
   margin: auto;
   margin-top: 6%;
   border-radius: 0 0 10px 10px;
-  background-image:url("https://im.wampi.ru/2022/10/12/fon-768x766.jpg");
-  background-size: cover;
+  background: transparent linear-gradient(to bottom,rgba(10,11,31,0.9) 50%,rgb(10,11,31) 70%) repeat scroll 0 0;
+  box-shadow: 1px 10px 20px 5px #222;
 }
 .cover {
   float: left;
@@ -70,7 +67,7 @@ h3 {
   position: relative;
   float: left;
 }
-.mejs__button > button:focus {
+.mejs__button>button:focus {
   outline: 0px dotted #999;
 }
 .mejs__container {
@@ -108,11 +105,11 @@ h3 {
   padding: 0;
   margin: 0;
 }
-.mejs__controls .mejs__play button:before {
-  content: "\f04b";
+.mejs__controls .mejs__play button:before{
+  content:"\f04b";
 }
-.mejs__controls .mejs__pause button:before {
-  content: "\f04c";
+.mejs__controls .mejs__pause button:before{
+  content:"\f04c";
 }
 .mejs__controls .mejs__volume-button button {
   display: block;
@@ -137,7 +134,7 @@ h3 {
   width: 100%;
   margin-top: 7%;
   margin-bottom: 3%;
-  color: #6699ff;
+  color: #fff;
   height: auto;
   padding: 0;
   overflow: visible;
@@ -149,7 +146,7 @@ h3 {
 .mejs__controls span.mejs__duration {
   float: right;
   text-align: right;
-  color: #6699ff;
+  color: #ccc;
 }
 .mejs__controls span.mejs__currenttime {
   font-weight: 700;
@@ -168,7 +165,7 @@ h3 {
   cursor: pointer;
 }
 .mejs__controls .mejs__time-rail .mejs__time-loaded {
-  background: rgba(255, 255, 255, 0.2);
+  background: rgba(255,255,255,0.2);
 }
 .mejs__controls .mejs__time-rail .mejs__time-float {
   display: none;
@@ -200,7 +197,7 @@ h3 {
   border-left: 6px solid transparent;
 }
 .mejs__controls .mejs__time-rail .mejs__time-current {
-  background: #5bbb95 none repeat scroll 0 0;
+  background: #5BBB95 none repeat scroll 0 0;
 }
 .mejs__controls .mejs__time-handle {
   display: none;
@@ -226,18 +223,14 @@ h3 {
   line-height: 11px;
 }
 .mejs__controls .mejs__horizontal-volume-slider .mejs__horizontal-volume-total,
-.mejs__controls
-  .mejs__horizontal-volume-slider
-  .mejs__horizontal-volume-current {
+.mejs__controls .mejs__horizontal-volume-slider .mejs__horizontal-volume-current {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255,255,255,0.1);
 }
-.mejs__controls
-  .mejs__horizontal-volume-slider
-  .mejs__horizontal-volume-current {
+.mejs__controls .mejs__horizontal-volume-slider .mejs__horizontal-volume-current {
   background: #fff;
 }
