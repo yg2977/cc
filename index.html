@@ -1,37 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-  
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/p5.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.1/addons/p5.sound.min.js"></script>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <meta charset="utf-8" />
+<html>
 
-    
-  </style>
-  </head>
-  <body>
-    <div>
-      <p><script src="sketch.js" id="sketch"></script></p>
-    
-      <img src="prismatic-colors.jpg" id="rainbow">
-      <img src="circle.png" alt="Terracotta female statue" class="frame">
+<head>
+  <meta charset="UTF-8">
+  <title>Flat music player</title>
+</head>
+
+<body>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/mediaelement/4.2.7/mediaelement-and-player.min.js"></script>
+  <div class="contain">
+    <div class="container">
+      <div class="music-player">
+        <div class="cover">
+          <img src=
+             "https://im.wampi.ru/2022/10/13/ROZA-BELAY.png">   
+        </div>
+        <div class="titre">
+          <h3>Евгений Коновалов</h3>
+          <h1>Розы белые</h1>
+        </div>
+        <div class="lecteur">
+          <audio style="width: 100%;" class="fc-media">
+            <source src="https://static.tunnel.ru/media/audio/2016-09/post_comment/207443//song.mp3" type="audio/mp3" />
+          </audio>
+        </div>
+      </div>
     </div>
-    <div class="loading"></div>
-    <div class="loading"></div>
-  </body>
+  </div>
 
-  <h1>Grid Circle</h1>
-  <h1 data-text="It's loading…">It's loading…</h1>
-  <h2 style="background-color:red;">red</h2>
-  <h3 style="background-color: orange;">orange</h3>
-  <h4 style="background-color:yellow;">yellow</h4>
-  <h5 style="background-color:green;">green</h5>
-  <h6 style="background-color:cyan;">cyan</h6>
-  <p style="background-color: blue;">blue</p>
-  <p style="background-color: blueviolet;">purple</p>
+</body>
 
-  
-
-  
 </html>
